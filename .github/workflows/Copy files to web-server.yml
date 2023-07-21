@@ -1,0 +1,8 @@
+name: Copy folder content recursively to remote
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: /tmp
+          remote: scp/directory
+          host: 127.0.0.1
+          username: nitromixer
+          password: 123321
