@@ -1,7 +1,7 @@
 name: Copy files to web-server
 on: [push]
 jobs:
-  Copy files to web-server:
+  Copy-files-to-web-server:
     runs-on: ubuntu-latest
     steps:
       - name: Copy folder content recursively to remote
