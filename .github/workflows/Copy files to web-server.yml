@@ -1,5 +1,5 @@
 name: Copy folder content recursively to remote
-        uses: garygrossgarten/github-action-scp@release
+        uses: git@github.com:NitroMixer-kh/ci-cd-4-calendar.git
         with:
           local: /tmp
           remote: /var/www/calendar
