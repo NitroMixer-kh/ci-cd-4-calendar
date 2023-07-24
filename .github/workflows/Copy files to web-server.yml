@@ -10,5 +10,5 @@ jobs:
           local: index.php
           remote: /var/www/calendar
           host: 127.0.0.1
-          username: nitromixer
-          password: 123321
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.PASSWORD }}
