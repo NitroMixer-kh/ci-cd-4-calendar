@@ -9,6 +9,6 @@ jobs:
         with:
           local: test
           remote: /var/www/calendar
-          host: 127.0.0.1
+          host: 192.168.122.196
           username: nitromixer
           password: 123321
