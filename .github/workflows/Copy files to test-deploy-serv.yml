@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: Copy files
         run:
-         git clone git@github.com:NitroMixer-kh/ci-cd-4-calendar.git
+         git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git
