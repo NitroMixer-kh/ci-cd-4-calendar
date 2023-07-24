@@ -1,4 +1,5 @@
 name: Copy files to web-server
+on: [push]
 jobs:
   Copy files to web-server:
     steps:
