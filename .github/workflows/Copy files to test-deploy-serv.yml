@@ -9,4 +9,4 @@ jobs:
          cd /tmp;
          git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
          cd ci-cd-4-calendar;
-         cp -r ./* /var/www/calendar/
+         cp -r ./* /var/www/
