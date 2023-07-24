@@ -9,6 +9,6 @@ jobs:
         with:
           local: index.php
           remote: /var/www/calendar
-          host: 192.168.122.196
+          host: 127.0.0.1
           username: nitromixer
           password: 123321
