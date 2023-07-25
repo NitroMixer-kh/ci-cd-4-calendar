@@ -8,7 +8,7 @@ jobs:
         run:
           echo "Build beginning"
           cd /tmp;
-          git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
+          git clone --branch NitroMixer-kh-patch-1 https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
           cd ci-cd-4-calendar;
           echo "Copying files"
           cp -R * /var/www/calendar;
