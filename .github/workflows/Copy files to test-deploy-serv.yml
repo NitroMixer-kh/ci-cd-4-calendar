@@ -6,13 +6,12 @@ jobs:
     steps:
       - name: Copy files
         run:
-         echo "Build beginning"
-         cd /tmp;
-         git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
-         cd ci-cd-4-calendar;
-#         echo "current directory: $(pwd)";
-         ls /var/www/calendar;
-         echo "Copying files"
-         cp -R * /var/www/calendar;
-#         rsync -a * /home/nitromixer/calend/
-         echo "Build end"
+          echo "Build beginning"
+          cd /tmp;
+          git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
+          cd ci-cd-4-calendar;
+          echo "current directory: $(pwd)";
+          ls /var/www/calendar;
+          echo "Copying files"
+          cp -R * /var/www/calendar;
+          echo "Build end"
