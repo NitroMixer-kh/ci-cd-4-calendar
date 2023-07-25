@@ -2,7 +2,8 @@ name: Copy files to test-deploy-serv
 on: [push]
 jobs:
   Copy-files-to-web-server:
-    runs-on: test-deploy-serv
+    runs-on: 
+      labels: test-deploy-serv
     steps:
       - name: Clone repo
         run:
