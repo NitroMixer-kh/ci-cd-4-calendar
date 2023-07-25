@@ -2,7 +2,7 @@ name: Copy files to test-deploy-serv
 on: [push]
 jobs:
   Copy-files-to-web-server:
-    runs-on: ubuntu-latest
+    runs-on: test-deploy-serv
     steps:
       - name: Clone repo
         run:
