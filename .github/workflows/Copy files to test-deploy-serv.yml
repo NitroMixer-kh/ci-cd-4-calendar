@@ -10,7 +10,6 @@ jobs:
           cd /tmp;
           git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
           cd ci-cd-4-calendar;
-          echo "current directory: $(pwd)";
           ls /var/www/calendar;
           echo "Copying files"
           cp -R * /var/www/calendar;
