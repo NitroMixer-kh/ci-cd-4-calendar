@@ -3,7 +3,7 @@ on: [push]
 jobs:
   Copy-files-to-web-server:
     runs-on: 
-      labels: test-deploy-serv
+      labels: self-hosted
     steps:
       - name: Clone repo
         run:
