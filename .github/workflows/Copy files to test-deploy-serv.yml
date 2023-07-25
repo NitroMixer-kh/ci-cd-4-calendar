@@ -9,4 +9,5 @@ jobs:
          cd /tmp;
          git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
          cd ci-cd-4-calendar;
-         rsync -a * /home/nitromixer/calend/
+         cp -R * /home/nitromixer/calend/;
+#         rsync -a * /home/nitromixer/calend/
