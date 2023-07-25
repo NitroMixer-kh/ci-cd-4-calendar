@@ -9,7 +9,6 @@ jobs:
         run:
           echo "Clone repo"
           git clone --branch NitroMixer-kh-patch-1 https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
-          sleep 5;
       - name: Copy files
         run:
           echo "Copying files"
