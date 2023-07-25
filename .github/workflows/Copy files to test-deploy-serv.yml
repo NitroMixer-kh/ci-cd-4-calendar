@@ -17,4 +17,5 @@ jobs:
           echo "Copying files"
           cp -R ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
           echo "Build end";
+          rm -rf ~/actions-runner/_work/ci-cd-4-calendar
           sleep 5;
