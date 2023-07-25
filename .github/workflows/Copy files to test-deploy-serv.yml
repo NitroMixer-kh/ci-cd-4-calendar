@@ -12,9 +12,9 @@ jobs:
           sleep 5;
       - name: Copy files
         run:
-          cd ci-cd-4-calendar;
-          echo "Copying files"
-          cp -Rv ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
-          echo "Build end";
+#          cd ci-cd-4-calendar;
+#          echo "Copying files"
+#          cp -Rv ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
+#          echo "Build end";
           rm -rf ~/actions-runner/_work/ci-cd-4-calendar
           sleep 5;
