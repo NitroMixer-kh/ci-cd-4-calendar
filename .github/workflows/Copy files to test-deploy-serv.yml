@@ -14,4 +14,11 @@ jobs:
           echo "Copying files";
           cp -Rv ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
           echo "Build end";
+  Clean-workspace:
+    if: ${{ always() }}
+    runs-on:
+      labels: self-hosted
+    steps:
+      - name: Clean workspace
+        run:
           rm -rf ~/actions-runner/_work/ci-cd-4-calendar
