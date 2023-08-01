@@ -7,12 +7,12 @@ jobs:
     steps:
       - name: Clone repo
         run:
+          echo "Clone repo";
           git clone --branch NitroMixer-kh-patch-1 https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
       - name: Copy files
         run:
           echo "Copying files";
-          #cp -Rv ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
-          bash ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/deploy-calendar.sh
+          cp -Rv ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
           echo "Build end";
   Clean-workspace:
     if: ${{ always() }}
@@ -21,5 +21,4 @@ jobs:
     steps:
       - name: Clean workspace
         run:
-          ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/remove-old-build.sh
           rm -rf ~/actions-runner/_work/ci-cd-4-calendar
