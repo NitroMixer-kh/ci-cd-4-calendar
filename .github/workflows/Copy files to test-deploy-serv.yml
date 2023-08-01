@@ -7,7 +7,6 @@ jobs:
     steps:
       - name: Clone repo
         run:
-          echo "Clone repo";
           git clone https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
       - name: Copy files
         run:
