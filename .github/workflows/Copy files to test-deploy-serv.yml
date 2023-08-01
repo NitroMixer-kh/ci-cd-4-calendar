@@ -1,0 +1,25 @@
+name: Copy files to test-deploy-serv
+on: [push]
+jobs:
+  Copy-files-to-web-server:
+    runs-on: 
+      labels: self-hosted
+    steps:
+      - name: Clone repo
+        run:
+          echo "Clone repo";
+          git clone --branch master https://github.com/NitroMixer-kh/ci-cd-4-calendar.git;
+      - name: Copy files
+        run:
+          echo "Copying files";
+          bash ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/deploy-calendar.sh;
+          echo "Build end";
+  Clean-workspace:
+    if: ${{ always() }}
+    runs-on:
+      labels: self-hosted
+    steps:
+      - name: Clean workspace
+        run:
+          bash ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/remove-old-build.sh
+          rm -rf /home/nitromixer/actions-runner/_work/ci-cd-4-calendar
