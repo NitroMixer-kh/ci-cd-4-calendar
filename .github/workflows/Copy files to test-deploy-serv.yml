@@ -13,7 +13,7 @@ jobs:
         run:
           echo "Copying files";
           #cp -Rv ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
-          ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/deploy.sh
+          bash ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/deploy-calendar.sh
           echo "Build end";
   Clean-workspace:
     if: ${{ always() }}
