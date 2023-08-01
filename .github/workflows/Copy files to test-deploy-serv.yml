@@ -12,7 +12,7 @@ jobs:
       - name: Copy files
         run:
           echo "Copying files";
-          cp -Rv ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/* /var/www/calendar;
+          bash ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/deploy-calendar.sh;
           echo "Build end";
   Clean-workspace:
     if: ${{ always() }}
@@ -21,4 +21,5 @@ jobs:
     steps:
       - name: Clean workspace
         run:
+          bash ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/remove-old-build.sh
           rm -rf ~/actions-runner/_work/ci-cd-4-calendar
