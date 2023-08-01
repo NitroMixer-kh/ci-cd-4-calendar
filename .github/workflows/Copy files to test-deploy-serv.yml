@@ -22,4 +22,4 @@ jobs:
       - name: Clean workspace
         run:
           bash ~/actions-runner/_work/ci-cd-4-calendar/ci-cd-4-calendar/ci-cd-4-calendar/remove-old-build.sh
-          rm -rf ~/actions-runner/_work/ci-cd-4-calendar
+          rm -rf /home/nitromixer/actions-runner/_work/ci-cd-4-calendar
