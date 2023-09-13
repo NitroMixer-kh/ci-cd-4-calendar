@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0725e50c50c2919dab61c9c3347a4150",
+    "content-hash": "9b8b3606a306da321b8af9768d6867c6",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -2126,16 +2126,16 @@
         },
         {
             "name": "twbs/bootstrap-icons",
-            "version": "v1.8.3",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/icons.git",
-                "reference": "9bcba3efe7fae552f6425f6f4aaf70590d835482"
+                "reference": "26a4b76ce8e643993ca0529a4c51888df1bef7bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/icons/zipball/9bcba3efe7fae552f6425f6f4aaf70590d835482",
-                "reference": "9bcba3efe7fae552f6425f6f4aaf70590d835482",
+                "url": "https://api.github.com/repos/twbs/icons/zipball/26a4b76ce8e643993ca0529a4c51888df1bef7bd",
+                "reference": "26a4b76ce8e643993ca0529a4c51888df1bef7bd",
                 "shasum": ""
             },
             "type": "library",
@@ -2157,7 +2157,7 @@
                 "icons",
                 "svg"
             ],
-            "time": "2022-05-25T17:57:16+00:00"
+            "time": "2023-09-12T14:57:52+00:00"
         },
         {
             "name": "webmozart/assert",
