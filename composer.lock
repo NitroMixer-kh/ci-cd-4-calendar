@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0725e50c50c2919dab61c9c3347a4150",
+    "content-hash": "abbd9a704910417ff2234d156a0e272f",
     "packages": [
         {
             "name": "ckeditor/ckeditor",
@@ -2075,27 +2075,22 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v4.6.2",
+            "version": "v5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70"
+                "reference": "344e912d04b5b6a04482113eff20ab416ff01048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/e5643aaa89eb67327a5b4abe7db976f0ea276b70",
-                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/344e912d04b5b6a04482113eff20ab416ff01048",
+                "reference": "344e912d04b5b6a04482113eff20ab416ff01048",
                 "shasum": ""
             },
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -2122,7 +2117,7 @@
                 "sass",
                 "web"
             ],
-            "time": "2022-07-19T15:13:44+00:00"
+            "time": "2023-09-14T14:19:27+00:00"
         },
         {
             "name": "twbs/bootstrap-icons",
